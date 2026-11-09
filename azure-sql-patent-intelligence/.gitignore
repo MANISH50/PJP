@@ -1,0 +1,42 @@
+# Environment variables
+.env
+
+# Internal/private files
+.internal/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files from demo
+!qr_codes/*.png
+*.csv
+
+# Azure Functions
+azure_function/local.settings.json
+azure_function/.venv/
+azure_function/__pycache__/
+
+# Claude Code
+.mcp.json
